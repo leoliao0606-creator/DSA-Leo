@@ -1,0 +1,27 @@
+# C++ build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dSYM/
+
+# Local executables produced by the assignment source files
+/Assignment1/MeetingScheduler
+/Assignment1/TranslateCode
+
+# Build-system directories and files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Makefile
+
+# Editor and local agent configuration
+.vscode/
+.agents/
+.codex/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
