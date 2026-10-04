@@ -17,7 +17,7 @@ namespace std {
     };
 }
 
-/** reads the matrix file, returns empty if it can't */
+/** reads the matrix file, and returns empty if it can't */
 inline vector<vector<int>> readMatrix(const string& filename) {
     vector<vector<int>> matrix;
     ifstream file(filename);
